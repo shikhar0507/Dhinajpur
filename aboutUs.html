@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="css/aboutus.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/99ae05c73c.js"></script>
+    <title>About Us</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-collpase" role="navigation" style="display:block;">
+      <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="Home.html">Home</a></li>
+          <li class="active"><a href="aboutUs.html">About Us</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Achievements
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Achievement.html">Achievements</a></li>
+                <li><a href="Service-network.html">Service Delivery</a></li>
+
+              </ul>
+            </li>
+
+
+          <li><a href="ProgramChallenge.html">Program Challenges Page</a></li>
+          <li><a href="Gallery.html">Gallery Page</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <a href="Donation.html" class="btn btn-donate pull-right">Donate</a>
+      </div>
+      </nav>
+      <br><br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="objective">
+        <h1 class="Heading">Our Objectives</h1>
+
+        <ul class="content">
+          <li>  To advocate for the social recognition and acceptance of communities marginalized for their gender and sexuality particularly Transgender , Hijra  & MSM( men having sex white men)  people .</li>
+        <br>  <li> To establish the equal constitutional and human rights of transgender ,Hijra  & MSM( Men having sex white men) people and to promote awareness of their rights within these communities as well as mainstream society.</li>
+          <br><li> To reduce the vulnerability of Transgender ,Hijra  and MSM ( men having sex white men) communities to HIV – AIDS and other sexually transmitted diseases ,and to build awareness on safer sex and high risk activities among these communities.</li>
+
+        </ul><br><br>
+        <p class="content">The 3 year has been very crucial and challenging to us. During this year all members of our society have worked heart and soul to overcome many difficulties. In 2011to 2014, The Uttar Dinajpur district is one of the most backward districts and literacy rate also low so all activities in terms of HIV/AIDS is difficult as many rural people are not aware about HIV/AIDS and its effect. But our all members are evolving to do their own responsibility to control and prohibit the spread of HIV/AIDS through various awareness efforts among target groups and mainstream.</p>
+    </div>
+    <br><br>
+    <div class="activity">
+        <h2 class="Heading" style="text-align:center; font-size:35px;">Activities of Dinajpur Notun Aalo Society</h2>
+        <img src="img/activity.png" class="activity-img"><br>
+        <p class="content">DNAS takes a tripartite approach to its work, dividing its activities between advocacy, Network Building, and Service Delivery.
+Through Advocacy, it seeks to counter discrimination and improve the quality of life of PLHIV.</p>
+    </div>
+    <br><br>
+  </div>
+  </div>
+    <footer>
+      <div class="container">
+            <div class="row">
+
+      <div class="col-xs-4">
+        <h3 style="color:#d6b014;">About US</h3>
+        <p>Dinajpur Notun Aalo Society envisions a society where people are no longer discriminated on the basis of gender identity or sexual orientation </p>
+
+
+      </div>
+      <div class="col-xs-4">
+        <h3 style="color:#d6b014;">Achievements</h3>
+        <li>107 sensitization meetings conducted</li>
+        <li>SSR handover from parent to CBO</li>
+        <li>Sensitization meeting with youth</li>
+        <li>PLHIV clients</li>
+        <li>Social Entitlement schemes</li>
+      </div>
+      <div class="col-xs-4" style="text-align:center;">
+        <h3 style="color:#d6b014;">Contact Us</h3>
+      Phone:  +91  9804973734
+      <br> dinajpurnotunaaio@gmail.com
+    <br>
+        <button class="btn btn-donate">Donate</button>
+    </div>
+
+
+
+
+    </div>
+
+    </div>
+    <br>
+    </footer>
+    <footer>
+      <div class="mash">
+          <span>Created By Mash Project</span>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          var curr_scroll = $(window).scrollTop();
+          $(window).scroll(function(){
+              var next_scroll = $(this).scrollTop();
+
+              if(next_scroll > curr_scroll) {
+
+                $("nav").css("display","none");
+                $("nav").css("transition","1s ease");
+                $('.slide-in').addClass('show');
+
+              }
+              else {
+                $("nav").css("display","block");
+
+                $("nav").css("transition","1s ease");
+
+
+
+              }
+              curr_scroll = next_scroll;
+          });
+      });
+
+
+    </script>
+
+
+</body>
+
+</html>

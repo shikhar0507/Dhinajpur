@@ -1,0 +1,18 @@
+.objective > h1 {
+  text-align: center;
+
+}
+.objective > ul {
+  padding:0px 100px 0px 100px;
+
+}
+
+.objective, .activity > p {
+  padding:0px 100px 0px 100px;
+}
+
+.activity-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
