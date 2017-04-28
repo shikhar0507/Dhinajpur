@@ -1,0 +1,25 @@
+.objective > h1 {
+  text-align: center;
+
+}
+.objective {
+  max-width: 100%;
+}
+.objective > ul > li {
+  width: 100%;
+
+}
+
+.objective, .activity > p {
+
+}
+.sm-content {
+  max-width: 100%;
+  font-size:17px;
+}
+
+.activity-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

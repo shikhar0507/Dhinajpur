@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/donation.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://use.fontawesome.com/99ae05c73c.js"></script>
+    <title>About Us</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-collpase" role="navigation" style="display:block;">
+      <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Achievements
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Achievement.html">Achievements</a></li>
+          <li><a href="Service-network.html">Service Delivery</a></li>
+
+        </ul>
+      </li>
+
+
+          <li><a href="ProgramChallenge.html">Program Challenges Page</a></li>
+          <li><a href="Gallery.html">Gallery Page</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <a href="Donation.html" class="btn btn-donate pull-right">Donate</a>
+      </div>
+      </nav>
+          <br><br><br><br><br>
+          <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 donate-paytm">
+              <h2 style="color:black;">Donate Via Paytm</h2>
+              <p>Scan this QR code via Paytm Mobile App and <br>donate to Dinajpur Notan Aloo Society</p>
+              <img src="img/qr.jpeg" class="qr-code">
+          </div>
+          <div class="col-md-6 bank-detail">
+            <h2>Bank A/C details</h2>
+
+            <p>You can also donate by a Bank Account Transfer</p>
+            <div class="details">
+              <br><br>
+            <p><h3>Bank Name - Bank of india</h3>
+
+              <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account No.- 409020110000317</h3>
+
+       <h3>IFSC Code  - BKID0004090</h3>
+
+       <h3>&nbsp;&nbsp;&nbsp;&nbsp;Branch   - New Town Islampur</h3></p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <br><br>
+    <footer>
+      <div class="footer-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6">
+                      <h2>About Dhinajpur Notun Aalo Society </h2>
+
+                      <p style="font-size:14px;">Dinajpur Notun Aalo Society envisions a society where people are no longer discriminated on the basis of gender identity or sexual orientation.Our vision is of a society where all people ,regardless of gender or sexuality ,are able to access all social and economic opportunities necessary for their wellbeing and full development.<br> </p>
+                  </div><!-- /.col-* -->
+
+                  <div class="col-sm-3">
+                      <h2>Contact Information</h2>
+                      <p style="font-size:14px;">
+                        Jibonmore,Choprajhar
+                        <br>Islampur, Uttar Dinajpur
+                        <br>733202
+                        <br>  Phone:  +91  9804973734
+                        <br>  <a href="#"> dinajpurnotunaaio@gmail.com  <a href="#"></a></p>
+
+
+
+
+
+                  </div><!-- /.col-* -->
+
+                  <div class="col-sm-3"><br>
+                      <a href="Donation.html" class="btn btn-donate btn-block" style="background-color:black;"> Donate</a>
+                  </div>
+
+
+
+
+                  <!-- /.col-* -->
+              </div><!-- /.row -->
+          </div><!-- /.container -->
+      </div><!-- /.footer-top -->
+
+      <div class="footer-bottom">
+          <div class="container">
+              <div class="footer-bottom-left">
+                  &copy; 2017 All rights reserved. Created by <a href="#">MASH</a>.
+              </div><!-- /.footer-bottom-left -->
+
+          </div><!-- /.container -->
+      </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+          $(document).ready(function(){
+              var curr_scroll = $(window).scrollTop();
+              $(window).scroll(function(){
+                  var next_scroll = $(this).scrollTop();
+
+                  if(next_scroll > curr_scroll) {
+
+                    $("nav").css("display","none");
+                    $("nav").css("transition","1s ease");
+                    $('.slide-in').addClass('show');
+
+                  }
+                  else {
+                    $("nav").css("display","block");
+
+                    $("nav").css("transition","1s ease");
+
+
+
+                  }
+                  curr_scroll = next_scroll;
+              });
+          });
+
+
+        </script>
+      </body>
+
+
+    </html>

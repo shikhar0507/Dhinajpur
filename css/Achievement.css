@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.document-banner {
+  background-image: url('../img/kaala.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  min-width:100%;
+
+
+}
+
+.document-banner > .Heading {
+  text-align: center;
+
+
+}
+
+.image-col-1 {
+  width: 100%;
+  min-height: 100%;
+  margin-left: 30px;
+}
+
+.image-col-2 {
+
+  margin-left:-30px;
+  height: 100%;
+}
+
+.gray {
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #45403c;
+}
+
+.yellow-code {
+  color: #d6b014;
+}
+
+.parallax-ach {
+
+  /* The image used */
+   background-image: url("../img/img5.jpg");
+   display: block;
+
+   /* Set a specific height */
+   min-height: 250px;
+   min-width: 100%;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax-ach {
+        background-attachment: scroll;
+    }
+}
+
+.head-hr {
+  color: gray;
+  width: 80%;
+  border: 1px solid;
+  border-top: none
+
+}
+
+.ach-programs {
+
+  font-size: 17px;
+}

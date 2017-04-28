@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="css/Contact.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200" rel="stylesheet" type="text/css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-collpase" role="navigation" style="display:block;">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Achievements
+        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Achievement.html">Achievements</a></li>
+                            <li><a href="Service-network.html">Service Delivery</a></li>
+
+                        </ul>
+                    </li>
+
+
+                    <li><a href="ProgramChallenge.html">Program Challenges Page</a></li>
+                    <li><a href="Gallery.html">Gallery Page</a></li>
+                    <li class="active"><a href="Contact.html">Contact</a></li>
+                </ul>
+                <a href="Donation.html" class="btn btn-donate pull-right">Donate</a>
+            </div>
+    </nav>
+
+
+    <div class="jumbotron" class="blur">
+
+
+        <h1 class="blank"></h1>
+    </div>
+    <h1 class="head" style="font-size:70px; color:#d6b014; filter:grayscale(0%) !important; margin-top:-230px; font-weight:100;">Contact Us</h1>
+
+    <br><br><br><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12"><br><br>
+                <div class="vertical-hr"></div>
+                <div class="col-md-7">
+                    <div class="location-container">
+
+                        <img src="img/Location.jpg">
+
+                    </div>
+                </div>
+                <div class="col-md-5 contact-details">
+                    <h2>Contact</h2>
+
+
+                    <div class="details">
+                        <br><br>
+
+                            <i class="fa fa-map-marker fa-2x col-md-1"></i>  <span class="">Jibonmore,Choprajhar,<br>
+                              Islampur, Uttar Dinajpur<br>
+                              733202  </span>
+                               <br><br><br><br><br>
+                            <i class="fa fa-phone fa-2x col-md-1"></i><span class=""> 9804973734/9563960284<br>7557829996</span><br>
+                            <br><br><br>
+                            <i class="fa fa-envelope fa-2x col-md-1"></i><span> dinajpurnotunaaio@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>About Dhinajpur Notun Aalo Society </h2>
+
+                    <p style="font-size:14px;">Dinajpur Notun Aalo Society envisions a society where people are no longer discriminated on the basis of gender identity or sexual orientation.Our vision is of a society where all people ,regardless of gender or sexuality ,are able
+                        to access all social and economic opportunities necessary for their wellbeing and full development.<br> </p>
+                </div>
+                <!-- /.col-* -->
+
+                <div class="col-sm-3">
+                    <h2>Contact Information</h2>
+                    <p style="font-size:14px;">
+                        Jibonmore,Choprajhar
+                        <br>Islampur, Uttar Dinajpur
+                        <br>733202
+                        <br> Phone: +91 9804973734
+                        <br> <a href="#"> dinajpurnotunaaio@gmail.com  <a href="#"></a></p>
+
+
+
+
+
+                </div>
+                <!-- /.col-* -->
+
+                <div class="col-sm-3"><br>
+                    <a href="Donation.html" class="btn btn-donate btn-block" style="background-color:black;"> Donate</a>
+                </div>
+
+
+
+
+                <!-- /.col-* -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.footer-top -->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-left">
+                &copy; 2017 All rights reserved. Created by <a href="#">MASH</a>.
+            </div>
+            <!-- /.footer-bottom-left -->
+
+        </div>
+        <!-- /.container -->
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/99ae05c73c.js"></script>
+    <script>
+        $(document).ready(function() {
+            var curr_scroll = $(window).scrollTop();
+            $(window).scroll(function() {
+                var next_scroll = $(this).scrollTop();
+
+                if (next_scroll > curr_scroll) {
+                    $("nav").css("display", "none");
+                    $("nav").css("transition", "1s ease");
+                    $(".parallax-banner").addClass("banner-add");
+
+
+                } else {
+
+                    $("nav").css("display", "block");
+
+                    $("nav").css("transition", "1s ease");
+                    $(".parallax-banner").removeClass("banner-add");
+
+                }
+                curr_scroll = next_scroll;
+            });
+        });
+    </script>
+</body>
+
+</html>
