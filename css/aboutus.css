@@ -4,14 +4,15 @@
 }
 .objective {
   max-width: 100%;
+
 }
 .objective > ul > li {
   width: 100%;
 
 }
 
-.objective, .activity > p {
-
+.objective, .sm-content {
+padding: 0px 10px 0px 20px;
 }
 .sm-content {
   max-width: 100%;
