@@ -23,3 +23,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 360px) {
+
+.activity-img {
+margin: 0 auto;
+}
+
+}
