@@ -19,11 +19,7 @@ html, body {
 
   background-image: url('../img/contact-com.jpg');
   width: 100%;
-<<<<<<< HEAD
   height: 350px;
-=======
-  height: 400px;
->>>>>>> e3c0ce637ca1f92bf8ccbfa30db04d4a7bf66195
   background-attachment: fixed;
   background-repeat: no-repeat;
   filter: blur(2px);
@@ -71,17 +67,9 @@ html, body {
 }
 
 
-<<<<<<< HEAD
 .contact-details {
   text-align: center;
 
  font-size: 20px;
 
-=======
-.contact-details .col-xs-6{
-text-align: left;
-margin-left: 50px;
- font-size: 22px;
- color: gray;
->>>>>>> e3c0ce637ca1f92bf8ccbfa30db04d4a7bf66195
 }

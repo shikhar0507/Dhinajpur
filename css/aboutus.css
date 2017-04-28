@@ -2,29 +2,20 @@
   text-align: center;
 
 }
-<<<<<<< HEAD
 .objective {
   max-width: 100%;
 }
 .objective > ul > li {
   width: 100%;
-=======
-.objective > ul {
-  padding:0px 100px 0px 100px;
->>>>>>> e3c0ce637ca1f92bf8ccbfa30db04d4a7bf66195
 
 }
 
 .objective, .activity > p {
-<<<<<<< HEAD
 
 }
 .sm-content {
   max-width: 100%;
   font-size:17px;
-=======
-  padding:0px 100px 0px 100px;
->>>>>>> e3c0ce637ca1f92bf8ccbfa30db04d4a7bf66195
 }
 
 .activity-img {
