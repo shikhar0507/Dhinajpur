@@ -42,8 +42,8 @@ html, body {
 
 
 
-    width: 100%;
-    height: 600px;
+    width: 80%;
+    height: 550px;
 }
 
 .location-container img {
@@ -54,17 +54,13 @@ html, body {
   .vertical-hr {
     border-left:1px solid #D3D3D3;
     margin-left: 50%;
-    height:650px;
+    height:550px;
     position: absolute;
 
 
   }
 
-.contact-details .glyphicon-map-marker, .glyphicon-earphone{
-  font-size: 30px;
-  margin-left: 40px;
 
-}
 
 
 .contact-details {

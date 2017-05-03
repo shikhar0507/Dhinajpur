@@ -268,11 +268,12 @@ footer .btn-donate {
   background-color: #45403c;
   color: #fff;
   font-size: 13px;
-  padding: 40px 0px; }
+  padding: 20px 0px; }
   .footer-top h2 {
     font-size: 24px;
     font-weight: 300;
-    margin: 0px 0px 30px 0px; }
+    margin: 20px 0px 30px 0px; }
+
   .footer-top p {
     margin: 0px; }
   .footer-top .nav.social-links > li:first-child {
